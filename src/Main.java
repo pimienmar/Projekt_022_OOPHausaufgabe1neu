@@ -1,11 +1,11 @@
 public class Main {
     public static void main(String[] args) {
 
-        Teilnehmer T1 = new Teilnehmer();
-        Teilnehmer T2 = new Teilnehmer();
-        Teilnehmer T3 = new Teilnehmer();
-        Teilnehmer T4 = new Teilnehmer();
+        Teilnehmer t1 = new Teilnehmer("Braun", 1.81, "2322", 6, 1990);
+        System.out.println(t1.geburtsjahr);
 
-        Teilnehmer T1.KlausurSchreiben();
+        Teilnehmer t2 = new Teilnehmer ();
+        System.out.println(t1.koerpergroeße);
+        System.out.println(t2.noten);
     }
 }
